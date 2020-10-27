@@ -1,0 +1,398 @@
+.container1{
+    width: 85%; 
+    margin: auto;
+    
+}
+
+.title{
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-family: Candara;
+    font-size: 30px;
+}
+
+.pepe{
+    color: black;
+    margin: auto;
+    font-family: 'Courier New';
+    font-size: 35px;
+    margin-top: 20px;
+    display: block;
+}
+
+.letras {
+    color: black;
+}
+
+.cards{
+    width: 30px;
+    
+}
+
+.imagenes{
+    height: 300px;
+}
+
+.separado{
+    margin-top: 60px;
+}
+
+.titulos{
+    text-align: left;
+    margin-left: 5px;
+    font-family: Candara;
+    font-size: 30px;
+}
+
+
+.card{
+    display: inline-table ;
+    margin-top: 10px;
+    
+    
+
+}
+
+.left{
+    text-align: left;
+}
+
+.displaycartas{
+    display: inline;
+    justify-content: space-between;
+}
+
+.letrascartas{
+    text-align: left;
+    color: black;
+}
+
+
+
+
+.container {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.container .card {
+    position: relative;
+    border-radius: 10px;
+}
+
+.container .card .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: 0.7s;
+    z-index: 1;
+}
+
+.container .card:nth-child(1) .icon {
+    background: #681ac2;
+}
+
+.container .card:nth-child(2) .icon {
+    background-color: #46078d;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fnorthlands.school.official%2F&psig=AOvVaw226LiJigDJDeJuve9a7avp&ust=1603392156241000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOiUlrmrxuwCFQAAAAAdAAAAABAD");
+}
+
+.container .card:nth-child(3) .icon {
+    background: #360d5e;
+}
+
+
+.container .card .icon .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.7s;
+    color: #fff;
+}
+
+i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.7s;
+    color: #fff;
+}
+
+.container .card .face {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container .card .face.face1 {
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+    background: #ff0057;
+    transform: translateY(0px);
+}
+
+.container .card .face.face1 .content {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content {
+    opacity: 1;
+}
+
+.container .card .face.face1 .content i{
+    max-width: 100px;
+}
+
+.container .card .face.face2 {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+    transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+.container .card .face.face2 .content p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #414141;
+}
+
+.container .card .face.face2 .content h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    color: #414141;
+} 
+
+.container a {
+    text-decoration: none;
+    color: #414141;
+}
+
+.columns {
+margin: 0 15px 25px;
+flex-basis: 50%;
+}
+
+.cont {
+    max-width: 85%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    letter-spacing: 2px;
+    display: flex;
+    
+}
+
+.each {
+    padding: 15px;
+}
+
+.margintop{
+margin-top: 50px;
+}
+
+
+.botones{
+    width: 80px;
+    height: 40px;
+    color: black;   
+    justify-content: space-between;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    margin-top: 6px;
+    
+
+}
+
+.c1{
+    background-color: #7D80EC;
+}
+
+.c2{
+    background-color: #696DEB;
+}
+.c3{
+    background-color: #5459EB;
+}
+.c4{
+    background-color: #3F45EC;
+}
+.c5{
+    background-color: #1018EA;
+    
+}
+
+.sql {
+    width: 100px;
+}
+
+.botones2{
+    width: 100%;
+    height: 40px;
+    color: black;   
+    border: none;
+    border-radius: 5px;
+    border: none;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    
+    
+
+}
+
+.eccom{
+    margin-top: 125px;
+}
+.embed{ 
+    margin-bottom: 100px;
+   
+}
+
+
+.linkedin{
+    height: 50px;
+}
+.ib{
+    width: 100px;
+    height: 100px;
+}
+
+.ig{
+    width: 70px;
+    height: 70px;
+}
+
+
+
+@media (max-width: 768px){
+    /* telefono */
+    
+        .container {
+            margin: auto;
+            
+            display: block;
+            
+            
+        }
+
+        
+        .columns {
+            margin: 0 15px 25px;
+            flex-basis: 50%;
+            }
+            
+        .cont {
+            max-width: 85%;
+            width: 100%;
+            margin: 0 auto;
+            text-align: left;
+            letter-spacing: 2px;
+            display: block;
+            
+        }
+
+        .title, .titulos, .pepe{
+            text-align: center;
+        }
+        .container1{
+            width: 100%; 
+            margin: auto;
+            
+        }
+        
+        .card{
+            display: block;
+            justify-content: center;
+            margin-top: 10px;
+            margin: auto;
+            text-align: center;
+            
+            
+
+        }
+
+    
+    }
+
+
+
+@media screen and (max-width: 1024px){
+    /* tablet */
+    .container {
+        margin: auto;
+        
+        display: block;
+        
+        
+    }
+
+    
+    .columns {
+        margin: 0 15px 25px;
+        flex-basis: 50%;
+        }
+        
+    .cont {
+        max-width: 85%;
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+        letter-spacing: 2px;
+        display: block;
+        
+    }
+
+    .title, .titulos, .pepe{
+        text-align: center;
+    }
+    .container1{
+        width: 100%; 
+        margin: auto;
+        
+    }
+
+    .card{
+        display: block;
+        justify-content: center;
+        margin-top: 10px;
+        margin: auto;
+        text-align: center;
+        
+        
+
+    }
+
+}

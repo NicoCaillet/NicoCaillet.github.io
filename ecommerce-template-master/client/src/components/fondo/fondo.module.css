@@ -1,0 +1,159 @@
+.div {
+    margin-top: 90px;
+    width: 85vw; 
+    margin: auto;
+    border-radius: 10px;  
+    
+}
+
+.imagen {
+    width: 250px;
+    height: 400px;
+}
+
+.popover{
+   
+    width: 190px;
+}
+
+.changeoutfit{
+    margin-top: 5px;
+    
+}
+
+.nav {
+    height: 325px;
+    border-radius: 12px;
+    background-color: #0B0588;
+}
+
+.imagen{
+    width: 260px;
+    height: 250px;
+}
+
+.rounded{ 
+width: 270px;
+margin-left: 15px;
+
+
+}
+
+.rounded img {
+    border-radius: 50%;
+   
+}
+
+
+.line{
+    width: 16em;
+    margin-left: 35px;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 160%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden; transform: translateY(-50% );
+}
+
+.animation {
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+    
+
+}
+
+@keyframes typewriter {
+    from{
+        width: 0;
+    }
+    to {
+        width: 27em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from{
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.p {
+    color: white;
+    font-family: 'Courier New';
+}
+
+
+
+.botones{
+    width: 80px;
+    height: 40px;
+    color: black;   
+    justify-content: space-between;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+.celeste{
+    background-color: #B5B9FF;
+}
+
+.verde{
+    background-color: #45F372;
+}
+.rojo{
+    background-color: #EF3F3F;
+}
+.amarillo{
+    background-color: yellow;
+}
+.gris{
+    background-color: #777777;
+}
+
+
+.letrasbotones {
+    font-family: 'Courier New';
+    font-size: 10px;
+    text-transform: bold;
+
+}
+
+@media (max-width: 768px){
+    /* telefono */
+    .p{
+        display: none;
+    }
+
+    
+    
+    .div {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        width: 300px;
+    }
+
+    
+    }
+
+
+
+@media screen and (max-width: 1024px){
+    /* tablet */
+    
+    .div {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        width: 300px;
+    }
+    .p{
+        display: none;
+    }
+
+}
