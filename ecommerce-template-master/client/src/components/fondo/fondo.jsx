@@ -6,7 +6,7 @@ import bombero_img from '../../fotos/bombero.jpg'
 import cientifico_img from '../../fotos/cientifico.jpg'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import Button from 'react-bootstrap/Button'
+import { Button } from 'react-bootstrap';
 import Overlay from 'react-bootstrap/Overlay'
 import Popover from 'react-bootstrap/Popover'
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
