@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/NicoCaillet.github.io/static/css/main.7eaf97d9.chunk.css",
+    "main.js": "/NicoCaillet.github.io/static/js/main.f9a02720.chunk.js",
+    "main.js.map": "/NicoCaillet.github.io/static/js/main.f9a02720.chunk.js.map",
+    "runtime-main.js": "/NicoCaillet.github.io/static/js/runtime-main.688a1f31.js",
+    "runtime-main.js.map": "/NicoCaillet.github.io/static/js/runtime-main.688a1f31.js.map",
+    "static/css/2.6414bb7b.chunk.css": "/NicoCaillet.github.io/static/css/2.6414bb7b.chunk.css",
+    "static/js/2.e0d2b562.chunk.js": "/NicoCaillet.github.io/static/js/2.e0d2b562.chunk.js",
+    "static/js/2.e0d2b562.chunk.js.map": "/NicoCaillet.github.io/static/js/2.e0d2b562.chunk.js.map",
+    "index.html": "/NicoCaillet.github.io/index.html",
+    "precache-manifest.3d12fa570bc2aff059bfcad46116462b.js": "/NicoCaillet.github.io/precache-manifest.3d12fa570bc2aff059bfcad46116462b.js",
+    "service-worker.js": "/NicoCaillet.github.io/service-worker.js",
+    "static/css/2.6414bb7b.chunk.css.map": "/NicoCaillet.github.io/static/css/2.6414bb7b.chunk.css.map",
+    "static/css/main.7eaf97d9.chunk.css.map": "/NicoCaillet.github.io/static/css/main.7eaf97d9.chunk.css.map",
+    "static/js/2.e0d2b562.chunk.js.LICENSE.txt": "/NicoCaillet.github.io/static/js/2.e0d2b562.chunk.js.LICENSE.txt",
+    "static/media/Henryapp2.pdf": "/NicoCaillet.github.io/static/media/Henryapp2.e4c80b06.pdf",
+    "static/media/Northlands.png": "/NicoCaillet.github.io/static/media/Northlands.2297725e.png",
+    "static/media/astronauta.jpg": "/NicoCaillet.github.io/static/media/astronauta.06091853.jpg",
+    "static/media/bombero.jpg": "/NicoCaillet.github.io/static/media/bombero.95a5717a.jpg",
+    "static/media/cientifico.jpg": "/NicoCaillet.github.io/static/media/cientifico.060fca3f.jpg",
+    "static/media/cv_nicolas.pdf": "/NicoCaillet.github.io/static/media/cv_nicolas.d7baf060.pdf",
+    "static/media/ecommerce.pdf": "/NicoCaillet.github.io/static/media/ecommerce.849f2a28.pdf",
+    "static/media/futbol.jpg": "/NicoCaillet.github.io/static/media/futbol.1d9b1e32.jpg",
+    "static/media/henry.jpeg": "/NicoCaillet.github.io/static/media/henry.91397619.jpeg",
+    "static/media/ib.png": "/NicoCaillet.github.io/static/media/ib.f6fe4713.png",
+    "static/media/ig.png": "/NicoCaillet.github.io/static/media/ig.d2ee0bcc.png",
+    "static/media/originall.jpg": "/NicoCaillet.github.io/static/media/originall.aaccf0a2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.688a1f31.js",
+    "static/css/2.6414bb7b.chunk.css",
+    "static/js/2.e0d2b562.chunk.js",
+    "static/css/main.7eaf97d9.chunk.css",
+    "static/js/main.f9a02720.chunk.js"
+  ]
+}
